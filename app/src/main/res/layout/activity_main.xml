@@ -30,7 +30,7 @@
             android:id="@+id/button5" />
 
         <Button
-            android:text="Button"
+            android:text="Button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
