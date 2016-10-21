@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.develop.art_me.lesson1.MainActivity">
+
+    <TextView
+        android:text="First text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ftext1" />
+
+    <TextView
+        android:text="Second text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ftext1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/ftext2" />
+
+    <Button
+        android:text="Push button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ftext2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/button_1" />
+
+    <CheckBox
+        android:text="CheckBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_1"
+        android:layout_alignParentStart="true"
+        android:id="@+id/checkColdAir" />
+
+    <TextView
+        android:text="ROOM STATE:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkColdAir"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:text="Air:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:text="Door:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Blinds:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4" />
+
+    <TextView
+        android:text="StateAir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textStateAir"
+        android:layout_above="@+id/textView4"
+        android:layout_toEndOf="@+id/checkColdAir" />
+
+    <TextView
+        android:text="StateDoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textStateDoor"
+        android:layout_below="@+id/textStateAir"
+        android:layout_alignStart="@+id/textStateAir" />
+
+    <TextView
+        android:text="StateBlinds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textStateBlinds"
+        android:layout_below="@+id/textStateDoor"
+        android:layout_alignStart="@+id/textStateDoor" />
+
+    <CheckBox
+        android:text="CheckBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBlindsOpen"
+        android:layout_below="@+id/button_1"
+        android:layout_toEndOf="@+id/checkColdAir" />
+
+</RelativeLayout>
