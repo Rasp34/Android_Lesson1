@@ -81,20 +81,13 @@
         android:layout_below="@+id/textView4" />
 
     <TextView
-        android:text="StateAir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textStateAir"
-        android:layout_above="@+id/textView4"
-        android:layout_toEndOf="@+id/checkColdAir" />
-
-    <TextView
         android:text="StateDoor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textStateDoor"
         android:layout_below="@+id/textStateAir"
-        android:layout_alignStart="@+id/textStateAir" />
+        android:layout_alignStart="@+id/textStateAir"
+        android:textColor="@color/ColorDarkGrayState" />
 
     <TextView
         android:text="StateBlinds"
@@ -102,7 +95,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/textStateBlinds"
         android:layout_below="@+id/textStateDoor"
-        android:layout_alignStart="@+id/textStateDoor" />
+        android:layout_alignStart="@+id/textStateDoor"
+        android:textColor="@color/ColorDarkGrayState" />
 
     <CheckBox
         android:text="CheckBox2"
@@ -111,5 +105,14 @@
         android:id="@+id/checkBlindsOpen"
         android:layout_below="@+id/button_1"
         android:layout_toEndOf="@+id/checkColdAir" />
+
+    <TextView
+        android:text="StateAir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textStateAir"
+        android:layout_above="@+id/textView4"
+        android:layout_toEndOf="@+id/checkColdAir"
+        android:textColor="@color/ColorDarkGrayState" />
 
 </RelativeLayout>
