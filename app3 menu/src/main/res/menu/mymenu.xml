@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+
+        <item
+            android:id="@+id/menu_color"
+            android:title="Color"
+            android:orderInCategory="1">
+
+        </item>
+
+        <item
+            android:id="@+id/menu_lights"
+            android:title="Lights"
+            android:orderInCategory="1">
+
+        </item>
+
+        <item
+            android:id="@+id/menu_shape"
+            android:title="Shape"
+            android:orderInCategory="1">
+
+        </item>
+
+    </group>
+
+    <group android:id="@+id/group2">
+
+        <item
+            android:id="@+id/menu_blur"
+            android:title="Blur"
+            android:orderInCategory="2">
+
+        </item>
+
+        <item
+            android:id="@+id/menu_shadows"
+            android:title="Shadows"
+            android:orderInCategory="2">
+
+        </item>
+
+        <item
+            android:id="@+id/Filter"
+            android:title="Filter"
+            android:orderInCategory="2">
+
+        </item>
+
+        <item
+            android:id="@+id/menu_settings"
+            android:title="Settings"
+            android:orderInCategory="2">
+
+        </item>
+
+
+    </group>
+
+</menu>

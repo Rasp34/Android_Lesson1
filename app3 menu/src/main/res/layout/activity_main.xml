@@ -8,6 +8,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.develop.art_me.lesson1.MainActivity">
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:layout_width="match_parent"
+            android:id="@+id/textDisplayMenu"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_default"
+            android:textSize="24sp"
+            android:lineSpacingExtra="14sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54dp"
+            android:id="@+id/checkAdvancedMenu"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            tools:text="@string/check_advanced"
+            android:text="@string/check_advanced"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
 </RelativeLayout>

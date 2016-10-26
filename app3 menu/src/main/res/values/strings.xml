@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Lesson1</string>
+    <string name="app_name">App_menu</string>
+    <string name="menu_default">menu choose</string>
+    <string name="check_advanced">advanced menu</string>
 </resources>
