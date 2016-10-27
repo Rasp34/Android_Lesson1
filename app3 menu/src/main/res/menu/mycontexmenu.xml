@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:id="@+id/group1">
+
+    <item
+        android:id="@+id/textSizeSmall"
+        android:title="Small text">
+
+    </item>
+
+    <item
+        android:id="@+id/textSizeMedium"
+        android:title="Medium text">
+
+    </item>
+
+    <item
+        android:id="@+id/textSizeLarge"
+        android:title="Large text">
+
+    </item>
+
+</group>
+
+
+
+
+</menu>

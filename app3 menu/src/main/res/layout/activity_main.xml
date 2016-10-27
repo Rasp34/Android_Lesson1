@@ -17,18 +17,26 @@
             android:id="@+id/textDisplayMenu"
             android:layout_height="wrap_content"
             android:text="@string/menu_default"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:lineSpacingExtra="14sp" />
 
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="54dp"
+            android:layout_marginTop="10dp"
             android:id="@+id/checkAdvancedMenu"
             android:layout_below="@+id/textView"
             android:layout_alignParentStart="true"
             tools:text="@string/check_advanced"
             android:text="@string/check_advanced"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Select text size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/selectTextSize"
             android:textSize="18sp" />
 
     </LinearLayout>
