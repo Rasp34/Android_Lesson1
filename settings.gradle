@@ -1,1 +1,1 @@
-include ':app', ':app2', ':app3 menu'
+include ':app', ':app2', ':app3 menu', ':app4 create objects in app'
