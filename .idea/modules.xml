@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Lesson1.iml" filepath="$PROJECT_DIR$/Lesson1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android_lesson1.iml" filepath="$PROJECT_DIR$/Android_lesson1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app2/app2.iml" filepath="$PROJECT_DIR$/app2/app2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app3 menu/app3 menu.iml" filepath="$PROJECT_DIR$/app3 menu/app3 menu.iml" />
       <module fileurl="file://$PROJECT_DIR$/app4 create objects in app/app4 create objects in app.iml" filepath="$PROJECT_DIR$/app4 create objects in app/app4 create objects in app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app5 weight switched/app5 weight switched.iml" filepath="$PROJECT_DIR$/app5 weight switched/app5 weight switched.iml" />
     </modules>
   </component>
 </project>
