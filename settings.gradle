@@ -1,1 +1,1 @@
-include ':app', ':app2', ':app3 menu'
+include ':app', ':app2', ':app3 menu', ':app5_WeightSwitch_v2', ':app_6_calculator_v0.1'

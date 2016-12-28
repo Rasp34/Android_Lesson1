@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app2/app2.iml" filepath="$PROJECT_DIR$/app2/app2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app3 menu/app3 menu.iml" filepath="$PROJECT_DIR$/app3 menu/app3 menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app5_WeightSwitch_v2/app5_WeightSwitch_v2.iml" filepath="$PROJECT_DIR$/app5_WeightSwitch_v2/app5_WeightSwitch_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_6_calculator_v0.1/app_6_calculator_v0.1.iml" filepath="$PROJECT_DIR$/app_6_calculator_v0.1/app_6_calculator_v0.1.iml" />
     </modules>
   </component>
 </project>
